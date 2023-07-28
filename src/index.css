@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+blockquote {
+	border-left: 5px solid gray;
+	color: gray;
+	padding-left: 5px;
+	margin-left: 25px;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+td,
+th {
+	border: 2px solid #224b4b;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+pre {
+	display: block;
+	overflow: auto;
+	background: #fff480;
+	padding: 30px;
+	line-height: 1.2;
+}
+
+pre code {
+	font-size: 16px;
+	background-color: white;
+}
+
+code {
+	background-color: #fff480;
+}
